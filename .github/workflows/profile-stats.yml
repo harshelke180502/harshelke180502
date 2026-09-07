@@ -1,0 +1,31 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download stats and language cards
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          curl -fsS -o assets/github-stats.svg \
+            "https://github-stats-extended.vercel.app/api?username=harshelke180502&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage"
+          curl -fsS -o assets/github-top-langs.svg \
+            "https://github-stats-extended.vercel.app/api/top-langs/?username=harshelke180502&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+
+      - name: Commit updated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh GitHub profile stats"
+          file_pattern: assets/github-stats.svg assets/github-top-langs.svg

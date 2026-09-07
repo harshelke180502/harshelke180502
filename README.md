@@ -4,7 +4,7 @@
 # Harsh Shelke
 
 **ML Research Engineer @ Gmango AI Health**  
-Real-Time Voice Infrastructure · Latency Profiling · LLM Systems  
+Modular / Realtime Voice · Benchmarking · LLM Systems  
 📍 Bellevue, WA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harsh-shelke)
@@ -14,6 +14,8 @@ Real-Time Voice Infrastructure · Latency Profiling · LLM Systems
 </div>
 
 ---
+
+<br/>
 
 ## Overview
 
@@ -25,11 +27,13 @@ Real-Time Voice Infrastructure · Latency Profiling · LLM Systems
 
 | Vector | Stack I use | Why it matters |
 | :--- | :--- | :--- |
-| **Real-Time Voice Infrastructure** | WebSocket TTS · semantic VAD · adaptive-bitrate audio · OpenAI Realtime | Turns stay natural on weak networks, with fewer cutoffs |
-| **Observability & Latency Profiling** | Langfuse · OpenTelemetry · Python replay harnesses · p50/p95/p99 | Shows which hop is slow, not just end-to-end time |
+| **Modular / Realtime Voice** | WebSocket TTS · semantic VAD · adaptive-bitrate audio · OpenAI Realtime | Turns stay natural on weak networks, with fewer cutoffs |
+| **Voice Benchmarking** | Langfuse · OpenTelemetry · Python replay harnesses · p50/p95/p99 | Shows which hop is slow, not just end-to-end time |
 | **LLM Alignment & Fairness** | PyTorch · Transformers · LoRA / PEFT · RABBI | Same eval protocol, clearer cost / speed / fairness tradeoffs |
 
 ---
+
+<br/>
 
 ## Key Impact @ Gmango AI Health
 
@@ -57,6 +61,8 @@ Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026
 
 ---
 
+<br/>
+
 ## Education
 
 | Degree | School | Timeline |
@@ -65,6 +71,8 @@ Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026
 | **B.Tech Computer Science & Engineering** | MIT World Peace University, Pune, India | Aug 2020 – Jun 2024 |
 
 ---
+
+<br/>
 
 ## Featured Projects
 
@@ -79,37 +87,57 @@ Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026
 
 ---
 
+<br/>
+
 ## Technical Stack
 
 | Layer | Tools |
 | :--- | :--- |
 | **Languages** | Python · JavaScript · SQL · Java · C/C++ |
 | **ML & LLMs** | PyTorch · TensorFlow · Transformers · LoRA / PEFT · Fine-tuning · Sentence Transformers · XGBoost · TabNet · LangChain |
-| **Voice & Real-Time Systems** | Deepgram STT · OpenAI TTS · OpenAI Realtime · ElevenLabs · Semantic VAD · WebSocket audio · Adaptive-bitrate TTS |
+| **Voice & Modular / Realtime Systems** | Deepgram STT · OpenAI TTS · OpenAI Realtime · ElevenLabs · Semantic VAD · WebSocket audio · Adaptive-bitrate TTS |
 | **Systems & Tooling** | FastAPI · Flask · React · Docker · Git · PostgreSQL · FAISS · D3.js · Hugging Face Spaces · Langfuse · OpenTelemetry |
-| **Evaluation & Metrics** | LangWatch replay harnesses · Latency profiling (p50 / p95 / p99) · TTFT / TTFA · Fairness (RABBI, demographic parity) · Precision / Recall · Cost-per-session |
+| **Evaluation & Metrics** | LangWatch replay harnesses · Benchmarking (p50 / p95 / p99) · TTFT / TTFA · Fairness (RABBI, demographic parity) · Precision / Recall · Cost-per-session |
 
 ---
 
+<br/>
+
 ## GitHub Analytics
 
+Cards refresh on a daily GitHub Action. Stats and languages are stored in this repo so they keep rendering if a public host is down.
+
+<br/>
+
+### Stats
+
 <div align="center">
+  <img src="assets/github-stats.svg" alt="GitHub stats" width="460" />
+  <img src="assets/github-top-langs.svg" alt="Top languages" width="340" />
+</div>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=harshelke180502&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshelke180502&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+<br/>
 
-  <br/>
+### Streak
 
+<div align="center">
   <img src="https://streak-stats.demolab.com/?user=harshelke180502&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</div>
 
-  <br/>
+<br/>
 
-  <img src="https://github-profile-trophy.vercel.app/?username=harshelke180502&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
+### Trophies
 
-  <br/>
+<div align="center">
+  <img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=harshelke180502&theme=tokyonight&column=4&margin-w=15&margin-h=15" alt="GitHub trophies" />
+</div>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=harshelke180502&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
+<br/>
 
+### Contributions
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/7aa2f7/harshelke180502" alt="GitHub contribution graph" />
 </div>
 
 ---
