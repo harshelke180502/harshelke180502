@@ -52,7 +52,7 @@ Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026
 - Exposed the slowest reply hop as measured by **5 Langfuse timers** (speech-end, first-token, TTS-dispatch, first-audio, transport), by adding OpenTelemetry spans in Python.
 - Automated comparable latency tests as measured by a **4-recording replay harness**, by replaying the same clips with Python, OpenTelemetry, and LangWatch.
 - Stabilized playback on weak networks as measured by live **adaptive-bitrate TTS** on a hotspot, by shrinking the Python WebSocket buffer when the link drops.
-- Replaced mid-thought cutoffs as measured by **semantic VAD** (fewer cuts on "um" pauses), by swapping fixed-silence detection for pause logic in Python.
+- Replaced mid-thought cutoffs as measured by **semantic VAD** (fewer cuts on intonation pauses), by swapping fixed-silence detection for pause logic in Python.
 - Resolved recurring voice glitches as measured by **4 production bugs** closed, by rebuilding Python audio buffering and pause detection.
 - Shipped a native Indonesian voice as measured by consults using **Indonesian TTS priming**, by passing session language into OpenAI Realtime TTS.
 - Localized leftover English copy as measured by **4 English-only strings** (0 remaining), by translating diagnosis and prescription text.
