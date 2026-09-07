@@ -48,7 +48,7 @@ Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026
   </tr>
 </table>
 
-- Slashed voice session cost as measured by **~$0.018/session, ~9x cheaper** than ~$0.16, by switching the stack to Deepgram STT, OpenAI LLM, and OpenAI TTS.
+
 - Exposed the slowest reply hop as measured by **5 Langfuse timers** (speech-end, first-token, TTS-dispatch, first-audio, transport), by adding OpenTelemetry spans in Python.
 - Automated comparable latency tests as measured by a **4-recording replay harness**, by replaying the same clips with Python, OpenTelemetry, and LangWatch.
 - Stabilized playback on weak networks as measured by live **adaptive-bitrate TTS** on a hotspot, by shrinking the Python WebSocket buffer when the link drops.
