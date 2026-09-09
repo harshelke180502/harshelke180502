@@ -4,7 +4,7 @@
 # Harsh Shelke
 
 **ML Research Engineer @ Gmango AI Health**  
-Modular / Realtime Voice · Benchmarking · LLM Systems  
+Realtime AI · LLM Systems · Evaluation · ML Engineering
 📍 Bellevue, WA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harsh-shelke)
@@ -21,44 +21,28 @@ Modular / Realtime Voice · Benchmarking · LLM Systems
 
 **Who I am.** ML research engineer focused on low-latency voice (WebSocket STT/TTS, semantic VAD) and measurable LLM systems (Langfuse, OpenTelemetry, Python).
 
-**Building now.** The voice stack at [Gmango](https://gmango.ai) in Python, Langfuse, and OpenAI Realtime, so consults stay fast on weak networks.
+**Building now.** Working on production AI and realtime voice systems, with a focus on performance, evaluation, observability, and reliability.
 
 ### Focus Areas
 
-| Vector | Stack I use | Why it matters |
+| Vector | What I work with | Why it matters |
 | :--- | :--- | :--- |
-| **Modular / Realtime Voice** | WebSocket TTS · semantic VAD · adaptive-bitrate audio · OpenAI Realtime | Turns stay natural on weak networks, with fewer cutoffs |
-| **Voice Benchmarking** | Langfuse · OpenTelemetry · Python replay harnesses · p50/p95/p99 | Shows which hop is slow, not just end-to-end time |
-| **LLM Alignment & Fairness** | PyTorch · Transformers · LoRA / PEFT · RABBI | Same eval protocol, clearer cost / speed / fairness tradeoffs |
-
+| **Realtime AI** | STT/TTS · WebSockets · Semantic VAD · Audio Systems | Building responsive and reliable voice experiences |
+| **AI Evaluation** | Python · Observability · Replay Testing · p50/p95/p99 | Making AI behavior measurable and reproducible |
+| **LLM Research** | PyTorch · Transformers · LoRA / PEFT · RAG | Evaluating and improving model behavior |
 ---
 
 <br/>
 
 ## Key Impact @ Gmango AI Health
 
-Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026 – Present
+**ML Research Engineer · Jul 2026 – Present**
 
-<table>
-  <tr>
-    <td align="center"><strong>5</strong><br/>Langfuse stage timers</td>
-    <td align="center"><strong>~9×</strong><br/>TTS cost reduction</td>
-    <td align="center"><strong>4</strong><br/>replay recordings</td>
-    <td align="center"><strong>4</strong><br/>voice-quality bugs closed</td>
-  </tr>
-</table>
-
-
-- Exposed the slowest reply hop as measured by **5 Langfuse timers** (speech-end, first-token, TTS-dispatch, first-audio, transport), by adding OpenTelemetry spans in Python.
-- Automated comparable latency tests as measured by a **4-recording replay harness**, by replaying the same clips with Python, OpenTelemetry, and LangWatch.
-- Stabilized playback on weak networks as measured by live **adaptive-bitrate TTS** on a hotspot, by shrinking the Python WebSocket buffer when the link drops.
-- Replaced mid-thought cutoffs as measured by **semantic VAD** (fewer cuts on intonation pauses), by swapping fixed-silence detection for pause logic in Python.
-- Resolved recurring voice glitches as measured by **4 production bugs** closed, by rebuilding Python audio buffering and pause detection.
-- Shipped a native Indonesian voice as measured by consults using **Indonesian TTS priming**, by passing session language into OpenAI Realtime TTS.
-- Localized leftover English copy as measured by **4 English-only strings** (0 remaining), by translating diagnosis and prescription text.
-- Recovered frozen-audio sessions as measured by a **10s auto-recovery** with no app restart, by restarting the TTS thread in Python.
-- Hardened those voice fixes as measured by **1,162 passing / 0 failing** tests, by adding Python regression coverage for language fallback and TTS.
-
+- Built stage-level latency instrumentation and percentile-based analysis to identify bottlenecks in realtime AI systems.
+- Created a repeatable recording-based evaluation workflow to compare system behavior across changes and reproduce issues consistently.
+- Improved realtime voice reliability through work on audio buffering, pause detection, and adaptive audio behavior.
+- Investigated production AI failures, added regression coverage, and turned recurring issues into repeatable tests.
+- Worked across AI evaluation, observability, debugging, and performance to make production systems more reliable.
 ---
 
 <br/>
@@ -95,8 +79,8 @@ Python · Langfuse · OpenTelemetry · WebSocket TTS · Bellevue, WA · Jul 2026
 | :--- | :--- |
 | **Languages** | Python · JavaScript · SQL · Java · C/C++ |
 | **ML & LLMs** | PyTorch · TensorFlow · Transformers · LoRA / PEFT · Fine-tuning · Sentence Transformers · XGBoost · TabNet · LangChain |
-| **Voice & Modular / Realtime Systems** | Deepgram STT · OpenAI TTS · OpenAI Realtime · ElevenLabs · Semantic VAD · WebSocket audio · Adaptive-bitrate TTS |
-| **Systems & Tooling** | FastAPI · Flask · React · Docker · Git · PostgreSQL · FAISS · D3.js · Hugging Face Spaces · Langfuse · OpenTelemetry |
+| **Realtime AI** | STT · TTS · Semantic VAD · WebSocket Audio · Audio Streaming · Realtime AI |
+| **Systems & Tooling** | FastAPI · Flask · React · Docker · Git · PostgreSQL · FAISS · D3.js · Hugging Face · Observability |
 | **Evaluation & Metrics** | LangWatch replay harnesses · Benchmarking (p50 / p95 / p99) · TTFT / TTFA · Fairness (RABBI, demographic parity) · Precision / Recall · Cost-per-session |
 
 ---
